@@ -17,7 +17,7 @@
     "seed": "medusa exec ./src/scripts/seed.ts",
     "ib": "init-backend",
     "start": "init-backend && cd .medusa/server && medusa start --verbose && npx medusa user --email israeltheory@gmail.com --password Medusa123.",
-    "dev": "medusa develop",
+    "dev": "medusa develop", 
     "email:dev": "email dev --dir=./src/modules/email-notifications/templates --port=3002"
   },
   "dependencies": {
